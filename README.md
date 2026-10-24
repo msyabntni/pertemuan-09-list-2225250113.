@@ -1,7 +1,6 @@
 # Pertemuan 09 - List Python
 
-**Nama:** Masya Bantani
-
+**Nama:** Masya Bantani   
 **NIM:** 2225250113  
 **Kelas:** 3E  
 **Mata Kuliah:** Algoritma dan Pemrograman
@@ -79,4 +78,38 @@ python praktik/analisis_nilai_mahasiswa.py
 
 | No. | Program | Hasil Pengujian |
 |---|---|---|
-| 1 | Memb
+| 1 | Membuat dan membaca list | Banyak data = 5 |
+| 2 | Indeks dan slicing | Elemen pertama = 75, elemen terakhir = 70 |
+| 3 | Manipulasi list | `[75, 70, 82, 90]` |
+| 4 | Agregasi nilai | Total = 398, rata-rata = 79.60 |
+| 5 | Filter kelulusan | Nilai lulus = `[75, 80, 60, 90]`, jumlah = 4 |
+| 6 | Fungsi statistik | Rata-rata = 79.60 |
+
+## Hasil Pengujian Praktik
+
+Program `analisis_nilai_mahasiswa.py` menggunakan daftar nilai berikut:
+
+```python
+[78, 55, 90, 67, 60, 82, 45, 71, 88, 59]
+```
+
+| Operasi | Input | Hasil Pengujian |
+|---|---|---|
+| Menghitung rata-rata | 10 nilai mahasiswa | 69.50 |
+| Menentukan nilai lulus | Batas kelulusan = 60 | `[78, 90, 67, 60, 82, 71, 88]` |
+| Menghitung jumlah lulus | Batas kelulusan = 60 | 7 mahasiswa |
+| Menghitung jumlah tidak lulus | Batas kelulusan = 60 | 3 mahasiswa |
+
+Berdasarkan hasil pengujian, program berhasil menghitung rata-rata nilai mahasiswa sebesar 69.50. Sebanyak 7 mahasiswa memperoleh nilai yang memenuhi batas kelulusan, sedangkan 3 mahasiswa belum memenuhi batas kelulusan.
+
+## Kuis Formatif - Kuis 3
+
+Kuis formatif membahas materi list Python, meliputi penggunaan list untuk menyimpan banyak data, indeks dan slicing, manipulasi elemen, fungsi untuk menghitung jumlah elemen dan rata-rata, penanganan list kosong, serta perintah Git untuk mengirim commit lokal ke GitHub.
+
+## Refleksi
+
+Melalui pertemuan ini, saya mempelajari cara menyimpan dan mengolah sekumpulan data menggunakan list dalam Python. Saya memahami penggunaan indeks dan slicing, manipulasi elemen list, serta fungsi bawaan seperti `sum()`, `len()`, `min()`, dan `max()` untuk melakukan perhitungan statistik sederhana.
+
+Selain itu, saya mempelajari cara menyaring nilai berdasarkan batas kelulusan dan membuat fungsi untuk menghitung rata-rata serta menentukan nilai yang lulus. Program latihan dan praktik diuji melalui terminal VS Code untuk memastikan keluaran sesuai dengan yang diharapkan.
+
+Materi ini membantu saya memahami pengolahan data secara terstruktur serta meningkatkan kemampuan dalam menggunakan Python, Git, dan GitHub untuk menyelesaikan tugas pemrograman.
