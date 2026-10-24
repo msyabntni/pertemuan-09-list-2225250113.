@@ -1,0 +1,22 @@
+```gitignore
+# File cache Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Pengaturan editor VS Code
+.vscode/
+
+# File sistem operasi
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# File sementara
+*.tmp
+*.log
+```
