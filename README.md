@@ -1,6 +1,7 @@
 # Pertemuan 09 - List Python
 
-**Nama:** Masya Bantani 
+**Nama:** Masya Bantani
+
 **NIM:** 2225250113  
 **Kelas:** 3E  
 **Mata Kuliah:** Algoritma dan Pemrograman
